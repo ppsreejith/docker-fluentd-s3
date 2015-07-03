@@ -2,7 +2,7 @@
 
 this command will route all containers outputs to an s3 bucket:
 
-	docker run -d -e AWS_KEY=key \
+	docker run --name logger -d -e AWS_KEY=key \
 		-e AWS_SECRET=secret \
 		-e S3_REGION=us-east-1 \
 		-e S3_BUCKET=mybucket \
