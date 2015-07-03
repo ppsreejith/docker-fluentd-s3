@@ -12,4 +12,4 @@ RUN ["/usr/local/bin/gem", "install", "fluent-plugin-forest", "--no-rdoc", "--no
 
 RUN ["/usr/local/bin/gem", "install", "fluent-plugin-s3", "--no-rdoc", "--no-ri"]
 
-ENTRYPOINT ["/usr/local/bin/fluentd", "-c", "/etc/fluent/fluent.conf"]
+ENTRYPOINT ["/usr/local/bin/fluentd", "-c", "/etc/fluent/fluent.conf","--use-v1-config"]
