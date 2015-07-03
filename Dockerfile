@@ -8,7 +8,7 @@ ADD fluent.conf /etc/fluent/
 
 RUN ["/usr/local/bin/gem", "install", "fluent-plugin-record-reformer", "--no-rdoc", "--no-ri"]
 
-RUN ["/usr/local/bin/gem", "install", "fluent-plugin-record-forest", "--no-rdoc", "--no-ri"]
+RUN ["/usr/local/bin/gem", "install", "fluent-plugin-forest", "--no-rdoc", "--no-ri"]
 
 RUN ["/usr/local/bin/gem", "install", "fluent-plugin-s3", "--no-rdoc", "--no-ri"]
 
