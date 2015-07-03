@@ -1,6 +1,6 @@
 # docker-fluentd-s3
 
-this command will route all containers outputs to an s3 bucket:
+this command will route all containers outputs to s3 bucket:
 
 	docker run --name logger -d -e AWS_KEY=key \
 		-e AWS_SECRET=secret \
